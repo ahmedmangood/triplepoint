@@ -1,0 +1,9 @@
+
+.navbar-brand,
+ul li a {
+    color: #fff !important;
+}
+ul li a:hover {
+    color: #ffffff91 !important;
+
+}
