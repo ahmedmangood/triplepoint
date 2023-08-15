@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -37,9 +40,14 @@ ul li a:hover {
     height: 100%;
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
 }
+/* Service Section */
 section {
     margin-top: 13em;
     margin-bottom: 10em;
+}
+section h1 {
+    text-decoration: underline;
+    color: #0e312e;
 }
 section .services {
     margin-top: 5em;
@@ -57,14 +65,11 @@ section .services {
     justify-content: space-between;
     align-items: center;
     border: 0px solid;
-    padding: 25px;
+    padding: 40px;
     margin: 10px;
-}
-.items-box:hover {
-    border: 0px solid;
-    transition: 0.5s;
+    background-color: #ecfcaf;
     border-radius: 10px;
-    background-color: #eee;
+    color: #0e312e;
 }
 .items-box i {
     margin-top: 50px;
