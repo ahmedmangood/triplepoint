@@ -87,39 +87,11 @@ html {
   
   /* End Component */
   /* Strat Header */
-  header {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    z-index: 2;
+  nav img {
+    width: 150px;
   }
-  header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-  }
-  header .container::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    background-color: #a2a2a2;
-    bottom: 16px;
-    width: calc(100% - 30px);
-    left: 15px;
-  }
-  header img {
-    width: 160px;
-  }
-  header nav {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-  header nav .toggle-menu {
-    color: white;
-    font-size: 22px;
+  nav ul li a {
+    color: #19c8fa !important;
   }
   @media (min-width: 768px) {
     header nav .toggle-menu {
@@ -292,6 +264,9 @@ html {
     }
     .services .srv-box i {
       margin: 0px 0px 30px;;
+    }
+    .services .srv-box img {
+      margin: 15px auto;
     }
   }
   .services .srv-box h3 {
